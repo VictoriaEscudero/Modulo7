@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: grid;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 16px;
+	text-align: center;
+}
+
+.tarjeta {
+	display: block;
+	width: 10rem;
+	margin: 2rem auto;
+	border-radius: 50%;
+}
+
+.imgBanco {
+	display: block;
+	width: 12rem;
+	margin: 1rem auto;
+	border-radius: 10%;
+}
+
+header {
+	display: flex;
+}
+
+.navbar {
+	position: fixed;
+	display: flex;
+	top: 0;
+	width: 100%;
+	background-color: rgba(100, 200, 250, 0.7);
+	padding: 0.1rem;
+	text-align: end;
+}
+
+.shadow {
+	box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+	margin-top: 10%;
+	color: white !important;
+	font-size: 5vmin !important;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+	color: rgb(225, 253, 254);
+	font-size: 3vmin;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 2rem;
+	padding: 0.3rem 1rem;
+	background: #005677;
+	color: white;
+	text-align: center;
+}
